@@ -1,8 +1,5 @@
 # Software Engineering
 
-
-# Definitions 
-
 # Software Architecture
   - Fundamental organization of a system, or the way the highest level components are wired together.
   - It's how you organize your softwares components to then be more easily maintainable and to be easy to add new features 
