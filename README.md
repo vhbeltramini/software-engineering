@@ -87,7 +87,7 @@ Software Design is important because it focuses on the specification of software
 - This is the distribution pattern used in message queues with a one-to-one relationship between the sender and the consumer of the message. Each message in the queue is sent to only one recipient and processed only once. This method is used when the message only had to be executed once
   - A good example for this messaging pattern is a payroll/financial transaction processing. In these kinds of systems, both senders and receivers need a guarantee that each payment will be only be process once.
 
-###Publish/subscribe messaging
+### Publish/subscribe messaging
 
 - In this message distribution pattern, commonly referred to as "pub/sub", works with the idea that each message is published to a topic, and all the multiple message consumers that are subscribed to the topic will/want to receive those messages. All messages published on a topic will be distributed to all subscribed applications. This is basically a broadcast distribution method where we have a one-to-many relationship between the publisher of a message and its consumer.
   - A good scenario and example where we can use this kind of message distribution pattern will be in an airline company where they will have to release updated information about the flights, and that information could be used by multiple systems since ground crew performing aircraft maintenance, refueling, baggage handlers, flight attendants, pilots preparing the aircraft for the flight, operator visual displays to inform the public, and many others possibles systems 
